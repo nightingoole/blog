@@ -83,14 +83,25 @@ plugins:
     duration: 10000       # Duration (ms)
     fade: 500            # fade duration (ms) (Not more than 1500)
     images: # For personal use only. At your own risk if used for commercial purposes !!!
-      - https://unpkg.com/volantis-static@0.0.1660614606622/media/wallpaper/minimalist/2020/003.webp
-      - https://unpkg.com/volantis-static@0.0.1660614606622/media/wallpaper/minimalist/2020/035.webp
-      - https://unpkg.com/volantis-static@0.0.1660614606622/media/wallpaper/minimalist/2020/001.webp
-      - https://unpkg.com/volantis-static@0.0.1660614606622/media/wallpaper/minimalist/2020/042.webp
-      - https://unpkg.com/volantis-static@0.0.1660614606622/media/wallpaper/minimalist/2020/002.webp
+#      - https://unpkg.com/volantis-static@0.0.1660614606622/media/wallpaper/minimalist/2020/002.webp
+#      - https://unpkg.com/volantis-static@0.0.1660614606622/media/wallpaper/minimalist/2020/003.webp
+#      - https://unpkg.com/volantis-static@0.0.1660614606622/media/wallpaper/minimalist/2020/006.webp
+#      - https://unpkg.com/volantis-static@0.0.1660614606622/media/wallpaper/minimalist/2020/042.webp
+#      - https://unpkg.com/volantis-static@0.0.1660614606622/media/wallpaper/minimalist/2020/002.webp
+      - https://img2.imgtp.com/2024/03/15/96ObiJeD.jpg
+      - https://img2.imgtp.com/2024/03/15/RgtReOmz.jpg
+      - https://img2.imgtp.com/2024/03/15/S6SZbcwa.jpg
+      - https://img2.imgtp.com/2024/03/15/32FZCnPf.jpg
+      - https://img2.imgtp.com/2024/03/15/SyUixpDU.jpg
+
   darkmode:
     enable: true
+  busuanzi:
+    enable: true
     
+analytics:
+  busuanzi: https://npm.elemecdn.com/penndu@1.0.0/bsz.js
+
 #      
 #music:
 #  class: music
@@ -106,19 +117,20 @@ comments:
   # https://github.com/laymonage/giscus
   giscus:
     # 以下配置按照 yml 格式增删填写即可
-    # repo: xxx/xxx
-    # repo-id: xxx
-    # category: xxx
-    # category-id: xxx
-    # mapping: "pathname"
-    # reactions-enabled: "1"
-    # emit-metadata: "0"
-    # lang: "zh-CN"
+    repo: nightingoole/blog
+    repo-id: R_kgDOLgplRg
+    category: Announcements
+    category-id: DIC_kwDOLgplRs4Cd_R_
+    mapping: "pathname"
+    reactions-enabled: "1"
+    emit-metadata: "0"
+    lang: "zh-CN"
     # 以上配置按照 yml 格式增删填写即可
     theme:
       light: "light" # https://gcore.jsdelivr.net/gh/volantis-x/cdn-volantis@master/css/giscus/light.css
       dark: "dark" # https://gcore.jsdelivr.net/gh/volantis-x/cdn-volantis@master/css/giscus/dark.css
   
+
 #search:
 #  enable: true
 #  service: hexo  # hexo
