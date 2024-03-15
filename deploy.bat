@@ -1,0 +1,1 @@
+scp -r ./public/* penghaowen@172.30.222.196:/var/services/web/
